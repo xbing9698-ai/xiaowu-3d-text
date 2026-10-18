@@ -314,7 +314,9 @@ body{
 
 #loading.is-done .loading-inner{
   opacity: 0;
+  visibility: hidden;
   transform: translateY(-4vh) scale(.97);
+  transition: none;
 }
 
 .loading-inner{
