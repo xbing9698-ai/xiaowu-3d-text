@@ -1,0 +1,17 @@
+{
+  "name": "xiaowu-3d-text",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "An interactive 3D Chinese typography artwork for mobile browsers.",
+  "scripts": {
+    "build": "esbuild src/main.js --bundle --minify --format=iife --target=es2019 --outfile=app.js",
+    "serve": "node tools/serve.mjs"
+  },
+  "dependencies": {
+    "three": "0.160.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.24.2"
+  }
+}
