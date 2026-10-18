@@ -76,6 +76,9 @@ src/font-data.json          五个字的字体轮廓数据
 assets/NotoSansSC-Black-subset.ttf   字体子集（存档/授权用，运行时不加载）
 assets/OFL-NotoSansSC.txt   字体授权
 assets/LICENSE-THREE.txt    Three.js 授权
+preview-mobile.png          手机竖屏预览
+preview-desktop.png         桌面预览
+social-preview.png          分享卡片图（og:image）
 tools/make_font_data.py     从 TTF 生成轮廓数据的工具
 tools/serve.mjs             本地静态服务器
 ```
